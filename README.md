@@ -12,7 +12,7 @@
 
 #### 2. The second subsystem, the perception subsystem consists of software to process sensor data. Components in the perception subsystem [combine sensor data](https://github.com/A2Amir/Extended-Kalman-Filter-for-Sensor-Fusion-Radar-and-Lidar) into meaningful information. we can think of the perception subsystem as the vehicle center of understanding about its environment. we can also divide the perception subsystem itself into two underlying subsystems; detection and localization.
 
-  1. The localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location.check these projects for more information 1.[Markov-Localization-and-the-Kidnapped-Vehicle](https://github.com/A2Amir/Markov-Localization-and-the-Kidnapped-Vehicle-) 2.[Introduction-of-Localization](https://github.com/A2Amir/Introduction-of-Localization).
+  1. The localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location.check these projects for more information 1.[Introduction-of-Localization](https://github.com/A2Amir/Introduction-of-Localization) 2.[Markov-Localization-and-the-Kidnapped-Vehicle](https://github.com/A2Amir/Markov-Localization-and-the-Kidnapped-Vehicle-) .
   
   
   2. The detection subsystem is responsible for understanding the surrounding environment. This subsystem includes software components such as; [lane detection](https://github.com/A2Amir/Advanced-Lane-Line-Finding), [traffic sign](https://github.com/A2Amir/Traffic_Sign_Classifier) and traffic light detection classification, object detection and tracking and free space detection.
