@@ -9,7 +9,7 @@ In this module, I will be discussing the system architecture used in the Udacity
 
 ***1. The first subsystem is the sensor subsystem, which consists of the hardware components that gather data about the environment. This subsystem includes LIDAR, radar, cameras, and even GPS sensors mounted on the car. There are many other types of sensors used in autonomous vehicles like IMU and Ultrasonic sensors.***
 
-***2. The second subsystem, the perception subsystem consists of software to process sensor data. Components in the perception subsystem combine sensor data into meaningful information. we can think of the perception subsystem as the vehicle center of understanding about its environment. we can further divide the perception subsystem itself into two underlying subsystems; detection and localization.**
+***2. The second subsystem, the perception subsystem consists of software to process sensor data. Components in the perception subsystem combine sensor data into meaningful information. we can think of the perception subsystem as the vehicle center of understanding about its environment. we can further divide the perception subsystem itself into two underlying subsystems; detection and localization.***
 
   1. The localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location.
   
