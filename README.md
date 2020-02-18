@@ -8,9 +8,9 @@
 
 
 
-#### 1. The first subsystem is ***the sensor subsystem***, which consists of the hardware components that gather data about the environment. This subsystem includes LIDAR, radar, cameras, and even GPS sensors mounted on the car. There are many other types of sensors used in autonomous vehicles like [IMU](https://en.wikipedia.org/wiki/Inertial_measurement_unit) and [Ultrasonic sensors](https://en.wikipedia.org/wiki/Parking_sensor).
+#### 1. The first subsystem is the sensor subsystem which consists of the hardware components that gather data about the environment. This subsystem includes LIDAR, radar, cameras, and even GPS sensors mounted on the car. There are many other types of sensors used in autonomous vehicles like [IMU](https://en.wikipedia.org/wiki/Inertial_measurement_unit) and [Ultrasonic sensors](https://en.wikipedia.org/wiki/Parking_sensor).
 
-#### 2. The second subsystem, ***the perception subsystem*** consists of software to process sensor data. Components in the perception subsystem combine sensor data into meaningful information. we can think of the perception subsystem as the vehicle center of understanding about its environment. we can also divide the perception subsystem itself into two underlying subsystems; detection and localization.
+#### 2. The second subsystem, the perception subsystem consists of software to process sensor data. Components in the perception subsystem [combine sensor data](https://github.com/A2Amir/Extended-Kalman-Filter-for-Sensor-Fusion-Radar-and-Lidar) into meaningful information. we can think of the perception subsystem as the vehicle center of understanding about its environment. we can also divide the perception subsystem itself into two underlying subsystems; detection and localization.
 
   1. The localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location.check these projects for more information 1.[Markov-Localization-and-the-Kidnapped-Vehicle](https://github.com/A2Amir/Markov-Localization-and-the-Kidnapped-Vehicle-) 2.[Introduction-of-Localization](https://github.com/A2Amir/Introduction-of-Localization).
   
@@ -20,7 +20,7 @@
 Each component of the perception subsystem relies on a different group of sensors. For example the object detection component of the perception subsystem might process data from Camera, Lidar and Radar and the localization component primarily uses data from Lidar and map.
 
 
-#### 3. ***The planning subsystem*** is the third subsystem on the vehicle. Once data from the sensors has been processed by the perception subsystem the vehicle can use that information to plan its path. There are several components of the planning system :
+#### 3. The planning subsystem is the third subsystem on the vehicle. Once data from the sensors has been processed by the perception subsystem the vehicle can use that information to plan its path. There are several components of the planning system :
 
   1. [Route planning](https://github.com/A2Amir/Search-Algorithms-A-Star-and-Dynamic-Prgramming): is responsible for high-level decisions about the path of the vehicle between two points on a map  for example which roads, highways, or freeways to take. This component is similar to the route planning feature found on many smartphones or modern car navigation systems. 
   
