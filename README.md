@@ -30,5 +30,5 @@ Each component of the perception subsystem relies on a different group of sensor
   
   4. [Trajectory generation](https://github.com/A2Amir/Trajectory-Generation): based on the desired immediate behavior, the trajectory planning component will determine which trajectory is best for executing this behavior.
 
-#### 4. The final subsystem is the control subsystem. This subsystem contains software components to ensure that the vehicle follows the path specified by the planning subsystem. The control subsystem may include components such as [PID controllers](https://github.com/A2Amir/PID-Control), model predictive controllers, or other controllers. The control subsystem sense acceleration, braking, and steering commands to the vehicle. This completes the chain of information from sensors to actuation and allows the vehicle to drive.####
+#### 4. The final subsystem is the control subsystem. This subsystem contains software components to ensure that the vehicle follows the path specified by the planning subsystem. The control subsystem may include components such as [PID controllers](https://github.com/A2Amir/PID-Control), model predictive controllers, or other controllers. The control subsystem sense acceleration, braking, and steering commands to the vehicle. This completes the chain of information from sensors to actuation and allows the vehicle to drive.
 
